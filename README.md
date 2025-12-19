@@ -4,13 +4,13 @@ Markov-based approaches capture the inherent uncertainty and dynamic transitions
 #### Hidden Markov Models (HMMs)
 HMMs assume that market regimes are latent (hidden) and must be inferred from observable features such as returns, volatility, or microstructure signals. This project demonstrates how HMMs can be applied to:
 
-Identify market states from noisy time series
+- Identify market states from noisy time series
 
-Recognize recurring patterns in price dynamics
+- Recognize recurring patterns in price dynamics
 
-Generate regime-aware trading signals
+- Generate regime-aware trading signals
 
-Support systematic strategy design
+- Support systematic strategy design
 
 The included study applies HMMs to E-mini S&P 500 (ES) data, showcasing how regime inference can enhance pattern recognition and strategy robustness.
 
