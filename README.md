@@ -20,7 +20,7 @@ The included study applies HMMs to E-mini S&P 500 (ES) data, showcasing how regi
 
 
 
-<img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5a0783d5-17b6-467c-9a30-a0c620773cac" /> Project Architecture
+#### Project Architecture
 
 regime_switching_models/\
 ├── config/\
