@@ -16,9 +16,6 @@ The included study applies HMMs to E-mini S&P 500 (ES) data, showcasing how regi
 
 [Hidden Markov Modeling - ES - E-mini S&P 500](https://github.com/manuelmusngi/regime_switching_models/blob/main/src/1-Hidden-Markov-Modeling-%20ES%20-%20E-mini%20S%26P%20500.ipynb) 
 
-[Hidden-Markov-Models- ES - Systematic-Strategy](https://github.com/manuelmusngi/regime_switching_models/blob/main/src/2-Hidden-Markov-Models-%20ES%20-%20Systematic-Strategy.ipynb)
-
-
 🏗️ Project Architecture
 
 regime_switching_models/\
