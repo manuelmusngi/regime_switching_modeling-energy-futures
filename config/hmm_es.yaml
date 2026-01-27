@@ -1,0 +1,7 @@
+symbol: "ES=F"
+start_date: "2017-01-01"
+end_date: "2022-12-31"
+
+hmm:
+  n_states: 4
+  covariance_type: "full"
