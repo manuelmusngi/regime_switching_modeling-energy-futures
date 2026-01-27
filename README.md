@@ -15,22 +15,22 @@ The included study applies HMMs to E-mini S&P 500 (ES) data, showcasing how regi
 
 🏗️ Project Architecture
 
-regime_switching_modeling/
-├── config/
-│   └── hmm_es.yaml
-├── src/
-│   ├── data/
-│   │   └── futures_product.py
-│   ├── features/
-│   │   └── feature_engineering.py
-│   ├── models/
-│   │   └── hmm_trainer.py
-│   ├── pipelines/
-│   │   └── hmm_es_pipeline.py
-│   ├── visualization/
-│   │   └── plotting.py
-│   └── utils/
-│       └── logger.py
+regime_switching_modeling/\
+├── config/\      
+│   └── hmm_es.yaml\
+├── src/\
+│   ├── data/\
+│   │   └── futures_product.py\
+│   ├── features/\
+│   │   └── feature_engineering.py\
+│   ├── models/\
+│   │   └── hmm_trainer.py\
+│   ├── pipelines/\
+│   │   └── hmm_es_pipeline.py\
+│   ├── visualization/\
+│   │   └── plotting.py\
+│   └── utils/\
+│       └── logger.py\
 ├── main.py
 └── requirements.txt
 
