@@ -5,11 +5,8 @@ Markov-based approaches capture the inherent uncertainty and dynamic transitions
 HMMs assume that market regimes are latent (hidden) and must be inferred from observable features such as returns, volatility, or microstructure signals. This project demonstrates how HMMs can be applied to:
 
 - Identify market states from noisy time series
-
 - Recognize recurring patterns in price dynamics
-
 - Generate regime-aware trading signals
-
 - Support systematic strategy design
 
 The included study applies HMMs to E-mini S&P 500 (ES) data, showcasing how regime inference can enhance pattern recognition and strategy robustness.
@@ -18,20 +15,24 @@ The included study applies HMMs to E-mini S&P 500 (ES) data, showcasing how regi
 
 🏗️ Project Architecture
 
-regime_switching_models/\
-├── config/\
-│   ├── [config.yaml](https://github.com/manuelmusngi/regime_switching_models/blob/main/config/config.yaml)         
-├── src/\
-│   ├── [__init__.py](https://github.com/manuelmusngi/regime_switching_models/blob/main/src/init.py)          
-│   ├── [data_loader.py](https://github.com/manuelmusngi/regime_switching_models/blob/main/src/data_loader.py)        
-│   ├── [feature_engineering.py](https://github.com/manuelmusngi/regime_switching_models/blob/main/src/feature_engineering.py)  
-│   ├── [hmm_model.py](https://github.com/manuelmusngi/regime_switching_models/blob/main/src/hmm_model.py)          
-│   ├── [signal_generation.py](https://github.com/manuelmusngi/regime_switching_models/blob/main/src/signal_generation.py)  
-│   ├── [backtesting.py](https://github.com/manuelmusngi/regime_switching_models/blob/main/src/backtesting.py)        
-│   ├── [utils.py](https://github.com/manuelmusngi/regime_switching_models/blob/main/src/utils.py)              
-│   ├── [plotter.py](https://github.com/manuelmusngi/regime_switching_models/blob/main/src/plotter.py)             
-├── [requirements.txt](https://github.com/manuelmusngi/regime_switching_models/blob/main/requirements.txt)          
-└── [main.py](https://github.com/manuelmusngi/regime_switching_models/blob/main/main.py)                   
+regime_switching_modeling/
+├── config/
+│   └── hmm_es.yaml
+├── src/
+│   ├── data/
+│   │   └── futures_product.py
+│   ├── features/
+│   │   └── feature_engineering.py
+│   ├── models/
+│   │   └── hmm_trainer.py
+│   ├── pipelines/
+│   │   └── hmm_es_pipeline.py
+│   ├── visualization/
+│   │   └── plotting.py
+│   └── utils/
+│       └── logger.py
+├── main.py
+└── requirements.txt
 
 
 #### Dependencies
