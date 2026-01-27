@@ -31,7 +31,7 @@ regime_switching_modeling/\
 │   │   └── plotting.py\
 │   └── utils/\
 │       └── logger.py\
-├── main.py
+├── main.py\
 └── requirements.txt
 
 
