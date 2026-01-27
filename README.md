@@ -20,19 +20,19 @@ regime_switching_modeling/\
 │   └── hmm_es.yaml\
 ├── src/\
 │   ├── data/\
-│   │   └── futures_product.py\
+│   │   └── [futures_product.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/data/futures_product.py)\
 │   ├── features/\
-│   │   └── feature_engineering.py\
+│   │   └── [feature_engineering.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/features/feature_engineering.py)\
 │   ├── models/\
-│   │   └── hmm_trainer.py\
+│   │   └── [hmm_trainer.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/models/hmm_trainer.py)\
 │   ├── pipelines/\
-│   │   └── hmm_es_pipeline.py\
+│   │   └── [hmm_es_pipeline.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/pipelines/hmm_es_pipeline.py)\
 │   ├── visualization/\
-│   │   └── plotting.py\
+│   │   └── [plotting.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/visualization/plotting.py)\
 │   └── utils/\
 │       └── logger.py\
-├── main.py\
-└── requirements.txt
+├── [main.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/main.py)\
+└── [requirements.txt](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/requirements.txt)
 
 
 #### Dependencies
