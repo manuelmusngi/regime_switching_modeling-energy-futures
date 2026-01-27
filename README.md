@@ -16,7 +16,7 @@ The included study applies HMMs to E-mini S&P 500 (ES) data, showcasing how regi
 🏗️ Project Architecture
 
 regime_switching_modeling/\
-├── config/\      
+├── config/     
 │   └── hmm_es.yaml\
 ├── src/\
 │   ├── data/\
