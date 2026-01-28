@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hmm_natgas"
+version = "0.1.0"
+description = "HMM-based volatility modeling for natural gas futures"
+authors = [{ name = "m" }]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "polars",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "yfinance",
+    "hmmlearn",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ipykernel", "black", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
