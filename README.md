@@ -30,20 +30,18 @@ hmm-ng-project/\
 ├── src/\
 │   └── hmm_ng/\
 │       ├── __init__.py\
-│       ├── config.py\
-│       ├── logging_utils.py\
-│       ├── paths.py\
-│       ├── data_ingestion.py\
-│       ├── preprocessing.py\
-│       ├── features.py\
+│       ├── [config.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/src/hmm_ng/config.py)\
+│       ├── [logging_utils.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/src/hmm_ng/logging_utils.py)\
+│       ├── [paths.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/src/hmm_ng/paths.py)\
+│       ├── [data_ingestion.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/src/hmm_ng/data_ingestion.py)\
+│       ├── [preprocessing.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/src/hmm_ng/preprocessing.py)\
+│       ├── [features.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/src/hmm_ng/features.py)\
 │       ├── models/\
-│       │   ├── hmm_model.py\
-│       │   └── evaluation.py\
-│       ├── visualization.py\
-│       └── pipeline.py\
-└── pyproject.toml
-
-
+│       │   ├── [hmm_model.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/src/models/hmm_model.py)\
+│       │   └── [evaluation.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/src/models/evaluation.py)\
+│       ├── [visualization.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/src/hmm_ng/visualization.py)\
+│       └── [pipeline.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/src/hmm_ng/pipeline.py)\
+└──[pyproject.toml](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/pyproject.toml)
 
 🧊 Dependencies
 
