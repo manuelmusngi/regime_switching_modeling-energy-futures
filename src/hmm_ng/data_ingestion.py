@@ -1,13 +1,12 @@
+ import polars as pl
 import yfinance as yf
-import polars as pl
+from .logging_utils import get_logger
 
-def fetch_yahoo(
-    symbol: str,
-    start: str,
-    end: str | None,
-    interval: str,
-    auto_adjust: bool,
-) -> pl.DataFrame:
+log = get_logger(__name__)
+
+def fetch_yahoo(symbol: str, start: str, end: str | None, interval: str, auto_adjust: bool) -> pl.DataFrame:
+    log.info(f"Fetching {symbol} from Yahoo Finance")
+
     df = yf.download(
         symbol,
         start=start,
@@ -26,3 +25,4 @@ def fetch_yahoo(
         .with_columns(pl.col("Date").cast(pl.Date))
         .sort("Date")
     )
+
