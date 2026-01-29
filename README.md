@@ -26,7 +26,7 @@ regime_switching_modeling/\
 │   ├── models/\
 │   │   └── [hmm_trainer.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/models/hmm_trainer.py)\
 │   ├── pipelines/\
-│   │   └── [hmm_es_pipeline.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/pipelines/hmm_es_pipeline.py)\
+│   │   └── [hmm_pipeline.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/pipelines/hmm_pipeline.py)\
 │   ├── visualization/\
 │   │   └── [plotting.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/visualization/plotting.py)\
 │   └── utils/\
