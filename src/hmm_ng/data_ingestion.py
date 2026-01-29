@@ -1,5 +1,5 @@
- import polars as pl
 import yfinance as yf
+import polars as pl
 from .logging_utils import get_logger
 
 log = get_logger(__name__)
@@ -17,11 +17,10 @@ def fetch_yahoo(symbol: str, start: str, end: str | None, interval: str, auto_ad
     )
 
     if df.empty:
-        raise ValueError(f"No data returned for {symbol}")
+        raise RuntimeError("Yahoo Finance returned no data")
 
     return (
         pl.from_pandas(df.reset_index())
-        .rename({"Date": "Date", "Close": "Close"})
         .with_columns(pl.col("Date").cast(pl.Date))
         .sort("Date")
     )
