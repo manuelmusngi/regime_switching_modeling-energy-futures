@@ -1,7 +1,7 @@
 #### Markov Regime-Switching Models
 Markov-based approaches capture the inherent uncertainty and dynamic transitions in market behavior. By modeling regime shifts probabilistically, these methods help quantify both historical and forward-looking market conditions—making them foundational tools in quantitative finance.
 
-#### Hidden Markov Models (HMMs)
+📊 Hidden Markov Models (HMMs)
 HMMs assume that market regimes are latent (hidden) and must be inferred from observable features such as returns, volatility, or microstructure signals. This project demonstrates how HMMs can be applied to:
 
 - Identify market states from noisy time series
