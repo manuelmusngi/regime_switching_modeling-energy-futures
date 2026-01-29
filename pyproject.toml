@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hmm-ng"
+version = "0.1.0"
+description = "Hidden Markov Model pipeline for Natural Gas regimes"
+requires-python = ">=3.10"
+
+dependencies = [
+    "polars>=0.20",
+    "numpy>=1.26",
+    "matplotlib>=3.7",
+    "hmmlearn>=0.3",
+    "yfinance>=0.2",
+    "pyyaml>=6.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
