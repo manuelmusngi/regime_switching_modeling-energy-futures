@@ -16,7 +16,9 @@ The included simplistic study applies HMMs to Henry Hub Natural Gas (NG) data, s
 🏗️ Project Architecture
 
 
+🧊 Dependencies
 
+[requirements.txt](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/requirements.txt)
 
 #### Future Enhancements
 
