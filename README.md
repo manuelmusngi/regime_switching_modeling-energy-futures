@@ -17,16 +17,16 @@ The included simplistic study applies HMMs to Henry Hub Natural Gas (NG) data, s
 
 hmm-ng-project/\
 ├── config/\
-│   ├── base.yaml\
-│   ├── data.yaml\
-│   └── model_hmm.yaml\
+│   ├── [base.yaml](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/config/base.yaml)\
+│   ├── [data.yaml](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/config/data.yaml)\
+│   └── [model_hmm.yaml](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/config/model_hmm.yaml)\
 ├── data/\
 │   ├── interim/\
 │   └── processed/\
 │       └── ng1_features.parquet\
 ├── scripts/\
-│   ├── run_full_pipeline.py\
-│   └── run_fit_hmm.py\
+│   ├── [run_full_pipeline.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/scripts/run_full_pipeline.py)\
+│   └── [run_fit_hmm.py](https://github.com/manuelmusngi/regime_switching_modeling-energy-futures/blob/main/scripts/run_fit_hmm.py)\
 ├── src/\
 │   └── hmm_ng/\
 │       ├── __init__.py\
