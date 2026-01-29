@@ -15,28 +15,6 @@ The included simplistic study applies HMMs to Henry Hub Natural Gas (NG) data, s
 
 🏗️ Project Architecture
 
-regime_switching_modeling/\
-├── config/     
-│   └── [hmm.yaml](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/config/hmm.yaml)\
-├── src/\
-│   ├── data/\
-│   │   └── [futures_product.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/data/futures_product.py)\
-│   ├── features/\
-│   │   └── [feature_engineering.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/features/feature_engineering.py)\
-│   ├── models/\
-│   │   └── [hmm_trainer.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/models/hmm_trainer.py)\
-│   ├── pipelines/\
-│   │   └── [hmm_pipeline.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/pipelines/hmm_pipeline.py)\
-│   ├── visualization/\
-│   │   └── [plotting.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/visualization/plotting.py)\
-│   └── utils/\
-│       └── logger.py\
-├── [main.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/main.py)\
-└── [requirements.txt](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/requirements.txt)
-
-
-#### Dependencies
-  - [requirements.txt](https://github.com/manuelmusngi/hidden-markov-modeling/blob/main/requirements.txt)
 
 #### Future Enhancements
 
