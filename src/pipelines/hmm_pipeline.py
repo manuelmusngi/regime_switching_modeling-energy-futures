@@ -4,7 +4,7 @@ from src.features.feature_engineering import add_features
 from src.models.hmm_trainer import HMMTrainer
 from src.visualization.plotting import plot_price, plot_returns, plot_regimes
 
-class HMMESPipeline:
+class HMMPipeline:
     def __init__(self, config):
         self.config = config
 
