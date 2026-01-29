@@ -1,13 +1,8 @@
 yahoo:
-  tickers:
-    ng1:
-      symbol: "NG=F"
-      interval: "1d"
-      auto_adjust: true
+  symbol: "NG=F"
+  interval: "1d"
+  auto_adjust: true
 
+date_range:
   start: "2000-01-01"
   end: null
-
-schema:
-  date_col: "Date"
-  price_col: "Close"
