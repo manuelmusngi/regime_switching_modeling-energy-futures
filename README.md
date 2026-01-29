@@ -54,7 +54,8 @@ Upcoming additions will expand the library to include:
 
 These extensions aim to broaden the toolkit for regime-aware modeling and systematic strategy development.
 
-#### References
+📚 Research References
+
   - [Detecting bearish and bullish markets in financial time series using hierarchical hidden Markov models](https://github.com/manuelmusngi/regime_switching_models/blob/main/2007.14874v1.pdf)
   - [Markov Models for Commodity Futures: Theory and Practice](https://github.com/manuelmusngi/regime_switching_models/blob/main/ssrn-1138782.pdf)
   - [Option Pricing in a Regime Switching Stochastic Volatility Model](https://arxiv.org/abs/1707.01237)
