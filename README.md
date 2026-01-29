@@ -17,7 +17,7 @@ The included simplistic study applies HMMs to Henry Hub Natural Gas (NG) data, s
 
 regime_switching_modeling/\
 ├── config/     
-│   └── [hmm_es.yaml](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/config/hmm_es.yaml)\
+│   └── [hmm_es.yaml](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/config/hmm.yaml)\
 ├── src/\
 │   ├── data/\
 │   │   └── [futures_product.py](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/src/data/futures_product.py)\
