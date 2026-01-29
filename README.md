@@ -9,7 +9,7 @@ HMMs assume that market regimes are latent (hidden) and must be inferred from ob
 - Generate regime-aware trading signals
 - Support systematic strategy design
 
-The included simplistic study applies HMMs to Henry Hub Natural Gas (NG) data, showcasing how regime inference can enhance pattern recognition and strategy robustness, which can be applied to any instrument.
+The included simplistic study applies HMMs to Henry Hub Natural Gas (NG) data, showcasing how regime inference can enhance pattern recognition and strategy robustness, which can be applied to any instrument:
 
 [Hidden Markov Modeling - Henry Hub Natural Gas (NG)](https://github.com/manuelmusngi/regime_switching_modeling/blob/main/Hidden-Markov-Modeling-Natural-Gas-NG.ipynb) 
 
