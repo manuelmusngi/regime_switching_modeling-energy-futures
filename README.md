@@ -15,6 +15,40 @@ The included simplistic study applies HMMs to Henry Hub Natural Gas (NG) data, s
 
 🏗️ Project Architecture
 
+hmm-ng-project/\
+├── config/\
+│   ├── base.yaml\
+│   ├── data.yaml\     
+│   ├── model_hmm.yaml\
+│   └── experiment_ng1_daily.yaml\
+├── data/\
+│   ├── interim/\
+│   └── processed/\
+│       └── ng1_features.parquet\
+├── notebooks/\
+│   └── 01_explore_ng1_regimes.ipynb\
+├── scripts/\
+│   ├── run_full_pipeline.py\
+│   ├── run_fit_hmm.py\
+│   └── run_backtest_hmm.py\
+├── src/\
+│   └── hmm_ng/\
+│       ├── __init__.py\
+│       ├── config.py\
+│       ├── logging_utils.py\
+│       ├── paths.py\
+│       ├── data_ingestion.py\   
+│       ├── preprocessing.py\
+│       ├── features.py\
+│       ├── models/\
+│       │   ├── hmm_model.py\
+│       │   └── evaluation.py\
+│       ├── visualization.py\
+│       └── pipeline.py\
+├── tests/\
+└── pyproject.toml
+
+
 
 #### Future Enhancements
 
