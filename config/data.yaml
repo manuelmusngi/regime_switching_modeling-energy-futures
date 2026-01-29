@@ -1,0 +1,13 @@
+yahoo:
+  tickers:
+    ng1:
+      symbol: "NG=F"
+      interval: "1d"
+      auto_adjust: true
+
+  start: "2020-01-01"
+  end: null
+
+schema:
+  date_col: "Date"
+  price_col: "Close"
