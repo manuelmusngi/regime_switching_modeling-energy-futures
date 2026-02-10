@@ -63,8 +63,9 @@ Upcoming additions will expand the library to include:
 
 These extensions aim to broaden the toolkit for regime-aware modeling and systematic strategy development.
 
-📚 Research References
+📚 Research References  
 
+  - [Understanding the US Natural Gas Market: A Markov Switching VAR Approach](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3156000)
   - [Markov Models for Commodity Futures: Theory and Practice](https://github.com/manuelmusngi/regime_switching_models/blob/main/ssrn-1138782.pdf)
   - [Detecting bearish and bullish markets in financial time series using hierarchical hidden Markov models](https://github.com/manuelmusngi/regime_switching_models/blob/main/2007.14874v1.pdf)
   - [A Markov-switching spatio-temporal ARCH model](https://arxiv.org/abs/2310.02630)
