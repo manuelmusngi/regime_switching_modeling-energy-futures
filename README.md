@@ -12,6 +12,9 @@
 ![MLE](https://img.shields.io/badge/Estimation-MLE-red.svg)
 ![Time Series](https://img.shields.io/badge/Time%20Series-Energy%20Futures-teal.svg)
 
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Issues](https://img.shields.io/github/issues/manuelmusngi/regime_switching_modeling-energy-futures)
+![Stars](https://img.shields.io/github/stars/manuelmusngi/regime_switching_modeling-energy-futures?style=social)
 
 
 #### Markov Regime-Switching Models
