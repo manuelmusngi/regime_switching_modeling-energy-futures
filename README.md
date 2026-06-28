@@ -2,11 +2,9 @@
  
 ![Model](https://img.shields.io/badge/Model-Regime%20Switching-orange.svg)
 ![Energy](https://img.shields.io/badge/Market-Henry%20Hub%20NG-lightblue.svg)
-![Markov](https://img.shields.io/badge/Markov%20Chains-Regime%20Switching-purple.svg) 
 ![Time Series](https://img.shields.io/badge/Time%20Series-Energy%20Futures-teal.svg)
 
-### 📘 Overview
-### Markov Regime-Switching Models
+📘 Markov Regime-Switching Models
 Markov-based approaches capture the inherent uncertainty and dynamic transitions in market behavior. By modeling regime shifts probabilistically, these methods help quantify both historical and forward-looking market conditions—making them foundational tools in quantitative finance.
 
 📊 Hidden Markov Models (HMMs)
