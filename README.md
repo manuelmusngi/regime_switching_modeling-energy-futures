@@ -8,6 +8,11 @@
 ![SciPy](https://img.shields.io/badge/SciPy-Optimization-green.svg)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-yellow.svg)
 
+![Markov](https://img.shields.io/badge/Markov%20Chains-Regime%20Switching-purple.svg)
+![MLE](https://img.shields.io/badge/Estimation-MLE-red.svg)
+![Time Series](https://img.shields.io/badge/Time%20Series-Energy%20Futures-teal.svg)
+
+
 
 #### Markov Regime-Switching Models
 Markov-based approaches capture the inherent uncertainty and dynamic transitions in market behavior. By modeling regime shifts probabilistically, these methods help quantify both historical and forward-looking market conditions—making them foundational tools in quantitative finance.
