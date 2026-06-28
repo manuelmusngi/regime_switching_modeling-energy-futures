@@ -1,10 +1,8 @@
- <svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
-  <rect width="120" height="120" rx="12" fill="#1A1A1A"/>
-  <text x="50%" y="40%" fill="#4FC3F7" font-size="22" text-anchor="middle" font-family="Arial">S₁ → S₂</text>
-  <text x="50%" y="75%" fill="#FFFFFF" font-size="14" text-anchor="middle" font-family="Arial">Markov Regimes</text>
-</svg>
-
-
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Model](https://img.shields.io/badge/Model-Regime%20Switching-orange.svg)
+![Energy](https://img.shields.io/badge/Market-Henry%20Hub%20NG-lightblue.svg)
+ 
 
 #### Markov Regime-Switching Models
 Markov-based approaches capture the inherent uncertainty and dynamic transitions in market behavior. By modeling regime shifts probabilistically, these methods help quantify both historical and forward-looking market conditions—making them foundational tools in quantitative finance.
