@@ -3,10 +3,6 @@
 ![Model](https://img.shields.io/badge/Model-Regime%20Switching-orange.svg)
 ![Energy](https://img.shields.io/badge/Market-Henry%20Hub%20NG-lightblue.svg)
  
-![NumPy](https://img.shields.io/badge/NumPy-1.26+-blue.svg)
-![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458.svg)
-![SciPy](https://img.shields.io/badge/SciPy-Optimization-green.svg)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-yellow.svg)
 
 ![Markov](https://img.shields.io/badge/Markov%20Chains-Regime%20Switching-purple.svg)
 ![MLE](https://img.shields.io/badge/Estimation-MLE-red.svg)
